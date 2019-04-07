@@ -1,0 +1,20 @@
+#restaurantes{
+    width: 100%;
+    padding: 50px;
+}
+.Card_Restaurante{
+    margin: 0px 0px 30px 0px;
+}
+.tarjeta:hover{
+    cursor: pointer;
+    box-shadow: 1px 0px 6px 5px #ececec;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.02);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.02);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.02);
+    transition: all 200ms ease-in;
+    transform: scale(1.02);
+}
